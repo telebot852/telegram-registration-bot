@@ -201,4 +201,5 @@ def process_search(message):
 
 #sqlite jadvalga yengi narsa qo'shish kerak bo'lganda
 #recreate_user_table()
+bot.remove_webhook()
 bot.polling(none_stop=True)
